@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 백준 #2557
+// Hello World #2557
 int main(){
     cout << "Hello World!";
 }
