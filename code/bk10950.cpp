@@ -4,9 +4,10 @@ using namespace std;
 
 // A+B - 3 #10950
 int main(){
-    int a,b = 0;
-    cin >> a;
-    cin >> b;
-    if(a == 0 || b== 0 || a < 0 || b > 9) return 0;
-    cout << a + b - 3;
+    int a,b,n = 0;
+    cin >> n;
+    for(int i = 0 ; i < n ; i++){
+        cin >> a >> b;
+        cout << a+b << endl;
+    }
 }
