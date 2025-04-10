@@ -2,13 +2,14 @@
 
 using namespace std;
 
-long long method(int a, int b){
+long long method(long long a, long long b){
     return (a+b)*(a-b);
 }
 
 // 이상한 기호 #15964
-long long main(){
-    int a,b;
+int main(){
+    long long a,b;
     cin >> a >> b;
     cout << method(a,b);
+    return 0;
 }

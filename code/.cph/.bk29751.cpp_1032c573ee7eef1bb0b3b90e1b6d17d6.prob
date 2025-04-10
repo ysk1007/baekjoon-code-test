@@ -1,0 +1,1 @@
+{"name":"Local: bk29751","url":"d:\\GDJ91\\code-test\\code\\bk29751.cpp","tests":[{"id":1744256597906,"input":"1 1","output":"0.5"},{"id":1744256611700,"input":"2 3","output":"3.0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GDJ91\\code-test\\code\\bk29751.cpp","group":"local","local":true}
