@@ -1,0 +1,1 @@
+{"name":"Local: bk13136","url":"d:\\git-project\\baekjoon-code-test\\code\\bk13136.cpp","tests":[{"id":1744589421170,"input":"7 9 3","output":"9"},{"id":1744589436218,"input":"7 10 3","output":"12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\git-project\\baekjoon-code-test\\code\\bk13136.cpp","group":"local","local":true}
