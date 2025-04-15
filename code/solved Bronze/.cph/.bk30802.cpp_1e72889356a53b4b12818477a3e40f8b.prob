@@ -1,0 +1,1 @@
+{"name":"Local: bk30802","url":"d:\\git-project\\baekjoon-code-test\\code\\solved Bronze\\bk30802.cpp","tests":[{"id":1744674780462,"input":"23\n3 1 4 1 5 9\n5 7","output":"7\n3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\git-project\\baekjoon-code-test\\code\\solved Bronze\\bk30802.cpp","group":"local","local":true}

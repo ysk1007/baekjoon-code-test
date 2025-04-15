@@ -23,7 +23,6 @@ int main(){
         vc.push_back(s);
     }
 
-    sort(vc.begin(),vc.end());
     sort(vc.begin(),vc.end(), compare);
 
     vc.erase(unique(vc.begin(),vc.end()),vc.end()); // 중복 제거
