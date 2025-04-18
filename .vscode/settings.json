@@ -11,6 +11,9 @@
         "utility": "cpp",
         "algorithm": "cpp",
         "deque": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "tuple": "cpp",
+        "unordered_map": "cpp",
+        "numeric": "cpp"
     }
 }
