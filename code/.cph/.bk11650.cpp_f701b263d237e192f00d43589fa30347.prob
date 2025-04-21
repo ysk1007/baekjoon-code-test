@@ -1,0 +1,1 @@
+{"name":"Local: bk11650","url":"d:\\git-project\\baekjoon-code-test\\code\\bk11650.cpp","tests":[{"id":1745194444613,"input":"5\n3 4\n1 1\n1 -1\n2 2\n3 3","output":"1 -1\n1 1\n2 2\n3 3\n3 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\git-project\\baekjoon-code-test\\code\\bk11650.cpp","group":"local","local":true}
