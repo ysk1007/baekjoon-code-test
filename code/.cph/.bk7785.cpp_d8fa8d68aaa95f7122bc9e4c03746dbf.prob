@@ -1,0 +1,1 @@
+{"name":"Local: bk7785","url":"d:\\git-project\\baekjoon-code-test\\code\\bk7785.cpp","tests":[{"id":1748567196360,"input":"4\nBaha enter\nAskar enter\nBaha leave\nArtem enter","output":"Askar\nArtem"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\git-project\\baekjoon-code-test\\code\\bk7785.cpp","group":"local","local":true}
