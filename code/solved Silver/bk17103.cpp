@@ -28,10 +28,22 @@ void eratos(){
 int main(){
     eratos();
 
-    vector<int> vc;
     cin >> t;
     for(int i = 0 ; i < t ; i++){
-        
+        cin >> n;
+        int j = 0;
+        int count = 0;
+        while(true){
+            int num = demical[j];
+            
+            if(num > n/2) break;
+
+            if(n == num * 2) count++;
+            else if(sieve[n - num]) count++;
+
+            j++;
+        }
+        cout << count << "\n";
     }
 
 }
