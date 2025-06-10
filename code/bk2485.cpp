@@ -1,43 +1,39 @@
 #include<iostream>
-#include<set>
+#include<vector>
 using namespace std;
+
+
+int gcd(int a, int b){
+    int m = 1;
+
+    while(m > 0){
+        m = a % b;
+        a = b;
+        b = m;
+    }
+
+    return a;
+}
 
 // 가로수 #2485
 int main(){
-    int t,n,temp = 0, interval = 9999999;
-    int start,end;
+    int t;
     cin >> t;
-    set<int> st;
+    vector<int> vc(t);
 
     for(int i = 0 ; i < t ; i++){
-        cin >> n;
-        st.insert(n);
-
-        if(i == 0) start = n;
-        if(i == t-1) end = n;
+        cin >> vc[i];
     }
 
-    bool flag = true;
-    while(flag){
-        flag = false;
-        int i = 0;
-        for(auto s : st){
+    int distGCD = vc[1] - vc[0];
 
-            if(i > 0 && interval > s - temp){
-                flag = true;
-                interval = s - temp;
-            }
-
-            temp = s;
-            i++;
-        }
-
-        for(int j = start; j < end ; j += interval){
-            st.insert(j);
-        }
+    for(int i = 2 ; i < t ; i++){
+        distGCD = gcd(distGCD,vc[i] - vc[i-1]);
     }
 
-    cout << st.size() - t;
+    int total = (vc[t-1] - vc[0]) / distGCD + 1;
+    
+    cout << total - t;
 
-
+    
 }
