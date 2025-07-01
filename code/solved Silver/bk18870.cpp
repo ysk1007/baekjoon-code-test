@@ -23,7 +23,6 @@ int main(){
         st.insert(n);
     }
 
-
     int i = 0;
     for(auto s : st){
         mp[s] = i;
