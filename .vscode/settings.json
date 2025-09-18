@@ -43,6 +43,10 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "ctime": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp",
+        "ios": "cpp",
+        "xiosbase": "cpp"
     }
 }
