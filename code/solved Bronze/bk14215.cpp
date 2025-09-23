@@ -26,5 +26,5 @@ int main(){
 
     cin >> a >> b >> c;
 
-    cout << max(triangle(a,b,c),max(triangle(b,c,a),triangle(c,a,b)));
+    cout << triangle(a,b,c);
 }
