@@ -1,0 +1,1 @@
+{"name":"Local: bk1010","url":"d:\\A_MyTask\\baekjoon-code-test\\code\\bk1010.cpp","tests":[{"id":1758684264046,"input":"3\n2 2\n1 5\n13 29","output":"1\n5\n67863915"},{"id":1758693112816,"input":"1\n4 6","output":"15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A_MyTask\\baekjoon-code-test\\code\\bk1010.cpp","group":"local","local":true}
